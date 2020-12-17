@@ -1,0 +1,52 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "a1be1295-b5e0-4502-b747-8198b30a006b",
+  "alias": "QuickLinksWebPart",
+  "componentType": "WebPart",
+
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "QuickLinks" },
+    "description": { "default": "Links To Pages" },
+    "iconImageUrl": "./assets/Links.png",
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "QuickLinks",
+      "Link1": "",
+      "LinkImage1": "",
+      "Link2": "",
+      "LinkImage2": "",
+      "Link3": "",
+      "LinkImage3": "",
+      "Link4": "",
+      "LinkImage4": "",
+      "Link5": "",
+      "LinkImage5": "",
+      "Link6": "",
+      "LinkImage6": "",
+      "Link7": "",
+      "LinkImage7": "",
+      "Link8": "",
+      "LinkImage8": "",
+      "Link9": "",
+      "LinkImage9": "",
+      "Link1Text": "",
+      "Link2Text": "",
+      "Link3Text": "",
+      "Link4Text": "",
+      "Link5Text": "",
+      "Link6Text": "",
+      "Link7Text": "",
+      "Link8Text": "",
+      "Link9Text": ""
+    }
+  }]
+}
