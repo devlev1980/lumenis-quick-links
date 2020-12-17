@@ -80,7 +80,9 @@ export default class QuickLinksWebPart extends BaseClientSideWebPart<IQuickLinks
 
     let html = `
       <div class="LinksWrapper">
-        <div class="LinksWrapper-Raw" style="padding-left:${MarginLeft}">`
+       <h1 class="title">מידע לעובדים</h1>
+        <div class="LinksWrapper-Raw" style="padding-left:${MarginLeft}">
+       `
         if(this.properties.Link1!="")
         {
           html +=`<div class="LinksTab">
